@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF21C7025C18D3F00491FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF21C6F25C18D3F00491FA9 /* AppDelegate.swift */; };
+		4BF21C7225C18D3F00491FA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF21C7125C18D3F00491FA9 /* SceneDelegate.swift */; };
+		4BF21C7425C18D3F00491FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF21C7325C18D3F00491FA9 /* ViewController.swift */; };
+		4BF21C7725C18D3F00491FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF21C7525C18D3F00491FA9 /* Main.storyboard */; };
+		4BF21C7925C18D4400491FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF21C7825C18D4400491FA9 /* Assets.xcassets */; };
+		4BF21C7C25C18D4400491FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF21C7A25C18D4400491FA9 /* LaunchScreen.storyboard */; };
+		4BF21C8725C18D4400491FA9 /* HappyCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF21C8625C18D4400491FA9 /* HappyCalendarTests.swift */; };
+		4BF21C9225C18D4400491FA9 /* HappyCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF21C9125C18D4400491FA9 /* HappyCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF21C8325C18D4400491FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF21C6425C18D3F00491FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF21C6B25C18D3F00491FA9;
+			remoteInfo = HappyCalendar;
+		};
+		4BF21C8E25C18D4400491FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF21C6425C18D3F00491FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF21C6B25C18D3F00491FA9;
+			remoteInfo = HappyCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BF21C6C25C18D3F00491FA9 /* HappyCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF21C6F25C18D3F00491FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BF21C7125C18D3F00491FA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BF21C7325C18D3F00491FA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BF21C7625C18D3F00491FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BF21C7825C18D4400491FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF21C7B25C18D4400491FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BF21C7D25C18D4400491FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF21C8225C18D4400491FA9 /* HappyCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF21C8625C18D4400491FA9 /* HappyCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyCalendarTests.swift; sourceTree = "<group>"; };
+		4BF21C8825C18D4400491FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF21C8D25C18D4400491FA9 /* HappyCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF21C9125C18D4400491FA9 /* HappyCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyCalendarUITests.swift; sourceTree = "<group>"; };
+		4BF21C9325C18D4400491FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF21C6925C18D3F00491FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF21C7F25C18D4400491FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF21C8A25C18D4400491FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF21C6325C18D3F00491FA9 = {
+			isa = PBXGroup;
+			children = (
+				4BF21C6E25C18D3F00491FA9 /* HappyCalendar */,
+				4BF21C8525C18D4400491FA9 /* HappyCalendarTests */,
+				4BF21C9025C18D4400491FA9 /* HappyCalendarUITests */,
+				4BF21C6D25C18D3F00491FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF21C6D25C18D3F00491FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF21C6C25C18D3F00491FA9 /* HappyCalendar.app */,
+				4BF21C8225C18D4400491FA9 /* HappyCalendarTests.xctest */,
+				4BF21C8D25C18D4400491FA9 /* HappyCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF21C6E25C18D3F00491FA9 /* HappyCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				4BF21C6F25C18D3F00491FA9 /* AppDelegate.swift */,
+				4BF21C7125C18D3F00491FA9 /* SceneDelegate.swift */,
+				4BF21C7325C18D3F00491FA9 /* ViewController.swift */,
+				4BF21C7525C18D3F00491FA9 /* Main.storyboard */,
+				4BF21C7825C18D4400491FA9 /* Assets.xcassets */,
+				4BF21C7A25C18D4400491FA9 /* LaunchScreen.storyboard */,
+				4BF21C7D25C18D4400491FA9 /* Info.plist */,
+			);
+			path = HappyCalendar;
+			sourceTree = "<group>";
+		};
+		4BF21C8525C18D4400491FA9 /* HappyCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF21C8625C18D4400491FA9 /* HappyCalendarTests.swift */,
+				4BF21C8825C18D4400491FA9 /* Info.plist */,
+			);
+			path = HappyCalendarTests;
+			sourceTree = "<group>";
+		};
+		4BF21C9025C18D4400491FA9 /* HappyCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF21C9125C18D4400491FA9 /* HappyCalendarUITests.swift */,
+				4BF21C9325C18D4400491FA9 /* Info.plist */,
+			);
+			path = HappyCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF21C6B25C18D3F00491FA9 /* HappyCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF21C9625C18D4400491FA9 /* Build configuration list for PBXNativeTarget "HappyCalendar" */;
+			buildPhases = (
+				4BF21C6825C18D3F00491FA9 /* Sources */,
+				4BF21C6925C18D3F00491FA9 /* Frameworks */,
+				4BF21C6A25C18D3F00491FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyCalendar;
+			productName = HappyCalendar;
+			productReference = 4BF21C6C25C18D3F00491FA9 /* HappyCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BF21C8125C18D4400491FA9 /* HappyCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF21C9925C18D4400491FA9 /* Build configuration list for PBXNativeTarget "HappyCalendarTests" */;
+			buildPhases = (
+				4BF21C7E25C18D4400491FA9 /* Sources */,
+				4BF21C7F25C18D4400491FA9 /* Frameworks */,
+				4BF21C8025C18D4400491FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF21C8425C18D4400491FA9 /* PBXTargetDependency */,
+			);
+			name = HappyCalendarTests;
+			productName = HappyCalendarTests;
+			productReference = 4BF21C8225C18D4400491FA9 /* HappyCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BF21C8C25C18D4400491FA9 /* HappyCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF21C9C25C18D4400491FA9 /* Build configuration list for PBXNativeTarget "HappyCalendarUITests" */;
+			buildPhases = (
+				4BF21C8925C18D4400491FA9 /* Sources */,
+				4BF21C8A25C18D4400491FA9 /* Frameworks */,
+				4BF21C8B25C18D4400491FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF21C8F25C18D4400491FA9 /* PBXTargetDependency */,
+			);
+			name = HappyCalendarUITests;
+			productName = HappyCalendarUITests;
+			productReference = 4BF21C8D25C18D4400491FA9 /* HappyCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF21C6425C18D3F00491FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					4BF21C6B25C18D3F00491FA9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4BF21C8125C18D4400491FA9 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 4BF21C6B25C18D3F00491FA9;
+					};
+					4BF21C8C25C18D4400491FA9 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 4BF21C6B25C18D3F00491FA9;
+					};
+				};
+			};
+			buildConfigurationList = 4BF21C6725C18D3F00491FA9 /* Build configuration list for PBXProject "HappyCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF21C6325C18D3F00491FA9;
+			productRefGroup = 4BF21C6D25C18D3F00491FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF21C6B25C18D3F00491FA9 /* HappyCalendar */,
+				4BF21C8125C18D4400491FA9 /* HappyCalendarTests */,
+				4BF21C8C25C18D4400491FA9 /* HappyCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF21C6A25C18D3F00491FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF21C7C25C18D4400491FA9 /* LaunchScreen.storyboard in Resources */,
+				4BF21C7925C18D4400491FA9 /* Assets.xcassets in Resources */,
+				4BF21C7725C18D3F00491FA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF21C8025C18D4400491FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF21C8B25C18D4400491FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF21C6825C18D3F00491FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF21C7425C18D3F00491FA9 /* ViewController.swift in Sources */,
+				4BF21C7025C18D3F00491FA9 /* AppDelegate.swift in Sources */,
+				4BF21C7225C18D3F00491FA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF21C7E25C18D4400491FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF21C8725C18D4400491FA9 /* HappyCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF21C8925C18D4400491FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF21C9225C18D4400491FA9 /* HappyCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF21C8425C18D4400491FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF21C6B25C18D3F00491FA9 /* HappyCalendar */;
+			targetProxy = 4BF21C8325C18D4400491FA9 /* PBXContainerItemProxy */;
+		};
+		4BF21C8F25C18D4400491FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF21C6B25C18D3F00491FA9 /* HappyCalendar */;
+			targetProxy = 4BF21C8E25C18D4400491FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BF21C7525C18D3F00491FA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF21C7625C18D3F00491FA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BF21C7A25C18D4400491FA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF21C7B25C18D4400491FA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF21C9425C18D4400491FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BF21C9525C18D4400491FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF21C9725C18D4400491FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PW5J4TF6C;
+				INFOPLIST_FILE = HappyCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanle.HappyCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF21C9825C18D4400491FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PW5J4TF6C;
+				INFOPLIST_FILE = HappyCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanle.HappyCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BF21C9A25C18D4400491FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PW5J4TF6C;
+				INFOPLIST_FILE = HappyCalendarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanle.HappyCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyCalendar.app/HappyCalendar";
+			};
+			name = Debug;
+		};
+		4BF21C9B25C18D4400491FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PW5J4TF6C;
+				INFOPLIST_FILE = HappyCalendarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanle.HappyCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyCalendar.app/HappyCalendar";
+			};
+			name = Release;
+		};
+		4BF21C9D25C18D4400491FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PW5J4TF6C;
+				INFOPLIST_FILE = HappyCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanle.HappyCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyCalendar;
+			};
+			name = Debug;
+		};
+		4BF21C9E25C18D4400491FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PW5J4TF6C;
+				INFOPLIST_FILE = HappyCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanle.HappyCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF21C6725C18D3F00491FA9 /* Build configuration list for PBXProject "HappyCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF21C9425C18D4400491FA9 /* Debug */,
+				4BF21C9525C18D4400491FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF21C9625C18D4400491FA9 /* Build configuration list for PBXNativeTarget "HappyCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF21C9725C18D4400491FA9 /* Debug */,
+				4BF21C9825C18D4400491FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF21C9925C18D4400491FA9 /* Build configuration list for PBXNativeTarget "HappyCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF21C9A25C18D4400491FA9 /* Debug */,
+				4BF21C9B25C18D4400491FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF21C9C25C18D4400491FA9 /* Build configuration list for PBXNativeTarget "HappyCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF21C9D25C18D4400491FA9 /* Debug */,
+				4BF21C9E25C18D4400491FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF21C6425C18D3F00491FA9 /* Project object */;
+}
